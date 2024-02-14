@@ -16,11 +16,14 @@ fib(5) evaluated as fib(4) + fib(3) = 3 + 2 = 5
 
 
 Problem -1
+
 1.code is in the folder named problem1.java
-2.Time complexity: To build the priority queue with size n it takes time as O(logk), so to pass the elements to the priority queue it takes 
+2.Time complexity: To build the priority queue with size n it takes time as O(logk), so to pass the elements to the priority 
+ queue it takes 
   O(k*logk). Then for merging arrays since we have total elements as k*n, so for each removal and addition of elements it 
   takes O(k*n*logk).
-3.To improve time complexity: Instead of using priority queue can be use divide and conquer whic is a similar approach to merge sort, and also can be 
+3.To improve time complexity: Instead of using priority queue can be use divide and conquer whic is a similar approach to 
+  merge sort, and also can be 
   optimize the priority queue for the large number of elements in the array so that we can get the time complexity as 
   O(n*logK).
 

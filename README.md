@@ -13,12 +13,14 @@ fib(5) evaluated as fib(4) + fib(3) = 3 + 2 = 5
 
 
 
+
+
 Problem -1
 1.code is in the folder named problem1.java
-2.To build the priority queue with size n it takes time as O(logk), so to pass the elements to the priority queue it takes 
+2.Time complexity: To build the priority queue with size n it takes time as O(logk), so to pass the elements to the priority queue it takes 
   O(k*logk). Then for merging arrays since we have total elements as k*n, so for each removal and addition of elements it 
   takes O(k*n*logk).
-3.Instead of using priority queue can be use divide and conquer whic is a similar approach to merge sort, and also can be 
+3.To improve time complexity: Instead of using priority queue can be use divide and conquer whic is a similar approach to merge sort, and also can be 
   optimize the priority queue for the large number of elements in the array so that we can get the time complexity as 
   O(n*logK).
 
@@ -26,9 +28,5 @@ Problem -1
 
 Problem-2
 1. code is in the folder named as problem2.java
-2. 
-
-
-
-
-
+2. Time complexity: for reading the input from user it takes O(1)times which is a constant. Then to iterate the loop it takes O(n) times to read the elements in the array. For removing the duplicates it takes time as O(n). so overall time complexity for the code is O(n)+O(1) so it can be O(n).
+3. To improve time complexity: By using hashset the time complexity can be improved it can be reduce to O(n) for removing the duplicates in the array where n is the size of an array.
